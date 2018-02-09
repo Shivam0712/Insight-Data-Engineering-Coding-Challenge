@@ -1,6 +1,6 @@
 # Insight Data Engineering Coding Challenge
 
-# Summary and Instructions
+## Summary and Instructions
 
 This challenge is to do the following: 
 
@@ -9,18 +9,18 @@ This challenge is to do the following:
 
 To run the code, execute run.sh as an executable.  The output of the programs can be found in the output folder as a text file labeled "repeat_donors.txt".
 
-# Libraries Required
+## Libraries Required
 
 My code uses sys, datetime, and numpy libraries.
 
-# Inputs
+## Inputs
 
 My code takes two inputs:
 
 1. percentile.txt - text file that indicates the percentile to be calculated for donations from repeat donors.
 2. itcont.txt - text file with contribution information.
 
-For the itcont.txt file, the code uses six fields, with the following considerations:
+The code uses six fields from the itcont.txt file, with the following considerations:
 
 * CMTE_ID: must not be empty
 * NAME: must not be empty
@@ -29,7 +29,7 @@ For the itcont.txt file, the code uses six fields, with the following considerat
 * TRANSACTION_AMT: must not be empty
 * OTHER_ID: must be empty
 
-# Approach
+## Approach
 
 My code uses the following approach:
 
