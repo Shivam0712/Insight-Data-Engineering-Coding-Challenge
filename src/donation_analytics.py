@@ -37,7 +37,7 @@ class DonorRecord(object):
         
     def add_donation(self, donation_list):
         # if the current donation being processed is from a later 
-        # calendar year than min_year, set the min_year to True. 
+        # calendar year than min_year, set repeat_donor to True. 
         # Otherwise, set it to False.
         self.repeat_donor = donation_list[2] > self.min_year
         # update min_year, if necessary.
